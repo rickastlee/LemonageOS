@@ -18,7 +18,7 @@ if [ -f $MAKEFILE ]; then
     exit 1
 fi
 
-if [ ! -d $LOGDIR ]; then
+if [ ! -d "$LOGDIR" ]; then
     mkdir -p "$LOGDIR"
 fi
 
