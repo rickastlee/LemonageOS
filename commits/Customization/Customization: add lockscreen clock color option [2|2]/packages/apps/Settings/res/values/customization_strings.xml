@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Customization category -->
+    <string name="customization_title">"Customization"</string>
+    <string name="customization_summary">"Tweak LineageOS according to your needs"</string>
+
+    <string name="default_string">Default</string>
+    <string name="disabled_string">Disabled</string>
+
+    <!-- Status bar -->
+    <string name="customization_statusbar_title">Status bar</string>
+    <string name="customization_statusbar_summary">Status bar icons, traffic indicator</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
+    <!-- Theming -->
+    <string name="customization_theming_title">Theming</string>
+    <string name="customization_theming_summary">Wallpaper, styles, dashboard icons, lockscreen clocks</string>
+
+    <!-- Dashboard icons -->
+    <string name="settings_dashboard_title">Settings dashboard icons</string>
+    <string name="settings_dashboard_default">Default</string>
+    <string name="settings_dashboard_p404">Project 404</string>
+
+    <!-- Lock screen clock accent color -->
+    <string name="lock_screen_clock_use_custom_accent_color_title">Custom lock screen clock accent color</string>
+    <string name="lock_screen_clock_use_custom_accent_color_summary">Use a custom accent color instead of the one automatically picked from the wallpaper</string>
+    <string name="lock_screen_clock_custom_accent_color_title">Color to be used in supported clocks</string>
+
+</resources>

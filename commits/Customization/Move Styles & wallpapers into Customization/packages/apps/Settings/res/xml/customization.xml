@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/customization_title" >
+
+    <!-- Status Bar -->
+    <Preference
+        android:key="statusbar_category"
+        android:title="@string/customization_statusbar_title"
+        android:summary="@string/customization_statusbar_summary"
+        android:fragment="com.android.settings.customization.fragments.StatusBar" 
+        android:icon="@drawable/ic_customization_statusbar"/>
+
+    <!-- Theming -->
+    <Preference
+        android:key="theming_category"
+        android:title="@string/customization_theming_title"
+        android:summary="@string/customization_theming_summary"
+        android:fragment="com.android.settings.customization.fragments.Theming" 
+        android:icon="@drawable/ic_customization_theming"/>
+
+</PreferenceScreen>

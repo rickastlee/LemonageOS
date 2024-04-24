@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="monet_accent">#FF88C7FF</color>
+    <color name="monet_default_background">#FF151618</color>
+    <color name="monet_divider">#333438</color>
+    <color name="monet_settings_search_bar_background">#242529</color>
+    <color name="monet_toast_background">#212326</color>
+    <color name="monet_twelve_dashboard_icon">#EEEEEE</color>
+</resources>

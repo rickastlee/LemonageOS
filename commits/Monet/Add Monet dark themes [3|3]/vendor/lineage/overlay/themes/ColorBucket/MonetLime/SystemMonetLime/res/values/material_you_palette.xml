@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="system_accent1_0">@*android:color/monet_hue_75_primary_0</color>
+    <color name="system_accent1_10">@*android:color/monet_hue_75_primary_10</color>
+    <color name="system_accent1_50">@*android:color/monet_hue_75_primary_50</color>
+    <color name="system_accent1_100">@*android:color/monet_hue_75_primary_100</color>
+    <color name="system_accent1_200">@*android:color/monet_hue_75_primary_200</color>
+    <color name="system_accent1_300">@*android:color/monet_hue_75_primary_300</color>
+    <color name="system_accent1_400">@*android:color/monet_hue_75_primary_400</color>
+    <color name="system_accent1_500">@*android:color/monet_hue_75_primary_500</color>
+    <color name="system_accent1_600">@*android:color/monet_hue_75_primary_600</color>
+    <color name="system_accent1_700">@*android:color/monet_hue_75_primary_700</color>
+    <color name="system_accent1_800">@*android:color/monet_hue_75_primary_800</color>
+    <color name="system_accent1_900">@*android:color/monet_hue_75_primary_900</color>
+    <color name="system_accent1_1000">@*android:color/monet_hue_75_primary_1000</color>
+
+    <color name="system_accent2_0">@*android:color/monet_hue_75_secondary_0</color>
+    <color name="system_accent2_10">@*android:color/monet_hue_75_secondary_10</color>
+    <color name="system_accent2_50">@*android:color/monet_hue_75_secondary_50</color>
+    <color name="system_accent2_100">@*android:color/monet_hue_75_secondary_100</color>
+    <color name="system_accent2_200">@*android:color/monet_hue_75_secondary_200</color>
+    <color name="system_accent2_300">@*android:color/monet_hue_75_secondary_300</color>
+    <color name="system_accent2_400">@*android:color/monet_hue_75_secondary_400</color>
+    <color name="system_accent2_500">@*android:color/monet_hue_75_secondary_500</color>
+    <color name="system_accent2_600">@*android:color/monet_hue_75_secondary_600</color>
+    <color name="system_accent2_700">@*android:color/monet_hue_75_secondary_700</color>
+    <color name="system_accent2_800">@*android:color/monet_hue_75_secondary_800</color>
+    <color name="system_accent2_900">@*android:color/monet_hue_75_secondary_900</color>
+    <color name="system_accent2_1000">@*android:color/monet_hue_75_secondary_1000</color>
+
+    <color name="system_accent3_0">@*android:color/monet_hue_75_tertiary_0</color>
+    <color name="system_accent3_10">@*android:color/monet_hue_75_tertiary_10</color>
+    <color name="system_accent3_50">@*android:color/monet_hue_75_tertiary_50</color>
+    <color name="system_accent3_100">@*android:color/monet_hue_75_tertiary_100</color>
+    <color name="system_accent3_200">@*android:color/monet_hue_75_tertiary_200</color>
+    <color name="system_accent3_300">@*android:color/monet_hue_75_tertiary_300</color>
+    <color name="system_accent3_400">@*android:color/monet_hue_75_tertiary_400</color>
+    <color name="system_accent3_500">@*android:color/monet_hue_75_tertiary_500</color>
+    <color name="system_accent3_600">@*android:color/monet_hue_75_tertiary_600</color>
+    <color name="system_accent3_700">@*android:color/monet_hue_75_tertiary_700</color>
+    <color name="system_accent3_800">@*android:color/monet_hue_75_tertiary_800</color>
+    <color name="system_accent3_900">@*android:color/monet_hue_75_tertiary_900</color>
+    <color name="system_accent3_1000">@*android:color/monet_hue_75_tertiary_1000</color>
+
+    <color name="system_neutral1_0">@*android:color/monet_hue_75_neutral_0</color>
+    <color name="system_neutral1_10">@*android:color/monet_hue_75_neutral_10</color>
+    <color name="system_neutral1_50">@*android:color/monet_hue_75_neutral_50</color>
+    <color name="system_neutral1_100">@*android:color/monet_hue_75_neutral_100</color>
+    <color name="system_neutral1_200">@*android:color/monet_hue_75_neutral_200</color>
+    <color name="system_neutral1_300">@*android:color/monet_hue_75_neutral_300</color>
+    <color name="system_neutral1_400">@*android:color/monet_hue_75_neutral_400</color>
+    <color name="system_neutral1_500">@*android:color/monet_hue_75_neutral_500</color>
+    <color name="system_neutral1_600">@*android:color/monet_hue_75_neutral_600</color>
+    <color name="system_neutral1_700">@*android:color/monet_hue_75_neutral_700</color>
+    <color name="system_neutral1_800">@*android:color/monet_hue_75_neutral_800</color>
+    <color name="system_neutral1_900">@*android:color/monet_hue_75_neutral_900</color>
+    <color name="system_neutral1_1000">@*android:color/monet_hue_75_neutral_1000</color>
+
+    <color name="system_neutral2_0">@*android:color/monet_hue_75_neutral_variant_0</color>
+    <color name="system_neutral2_10">@*android:color/monet_hue_75_neutral_variant_10</color>
+    <color name="system_neutral2_50">@*android:color/monet_hue_75_neutral_variant_50</color>
+    <color name="system_neutral2_100">@*android:color/monet_hue_75_neutral_variant_100</color>
+    <color name="system_neutral2_200">@*android:color/monet_hue_75_neutral_variant_200</color>
+    <color name="system_neutral2_300">@*android:color/monet_hue_75_neutral_variant_300</color>
+    <color name="system_neutral2_400">@*android:color/monet_hue_75_neutral_variant_400</color>
+    <color name="system_neutral2_500">@*android:color/monet_hue_75_neutral_variant_500</color>
+    <color name="system_neutral2_600">@*android:color/monet_hue_75_neutral_variant_600</color>
+    <color name="system_neutral2_700">@*android:color/monet_hue_75_neutral_variant_700</color>
+    <color name="system_neutral2_800">@*android:color/monet_hue_75_neutral_variant_800</color>
+    <color name="system_neutral2_900">@*android:color/monet_hue_75_neutral_variant_900</color>
+    <color name="system_neutral2_1000">@*android:color/monet_hue_75_neutral_variant_1000</color>
+</resources>

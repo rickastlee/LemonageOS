@@ -1,0 +1,9 @@
+// Permissions for prebuilt LineageOS apps
+
+// Moto Dialer
+prebuilt_etc {
+    name: "privapp-permissions-com.android.dialer",
+    src: "privapp-permissions-com.android.dialer.xml",
+    sub_dir: "permissions",
+    filename_from_src: true,
+}

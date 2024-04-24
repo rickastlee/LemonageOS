@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 Havoc-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/customization_theming_title" >
+
+    <!-- Styles & wallpapers -->
+    <com.android.settingslib.RestrictedPreference
+        android:key="wallpaper"
+        android:title="@string/wallpaper_settings_title"
+        android:icon="@drawable/ic_customization_theming_wallpaper"
+        settings:keywords="@string/keywords_display_wallpaper"
+        settings:useAdminDisabledSummary="true"
+        settings:controller="com.android.settings.display.WallpaperPreferenceController">
+    </com.android.settingslib.RestrictedPreference>
+
+    <!-- Dashboard icons -->
+    <org.lineageos.support.preferences.SecureSettingListPreference
+        android:key="settings_dashboard_icons"
+        android:title="@string/settings_dashboard_title"
+        android:entries="@array/settings_dashboard_entries"
+        android:entryValues="@array/settings_dashboard_values"
+        android:defaultValue="0" />
+
+    <!-- Signal icon style -->
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:icon="@drawable/ic_customization_theming_signal"
+        android:title="@string/signal_style_title"
+        android:summary="@string/signal_style_summary"
+        android:fragment="com.android.settings.customization.fragments.SignalIcons"/>
+
+    <!-- Wifi icon style -->
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:icon="@drawable/ic_customization_theming_wifi"
+        android:title="@string/wifi_style_title"
+        android:summary="@string/wifi_style_summary"
+        android:fragment="com.android.settings.customization.fragments.WifiIcons"/>
+
+    <!-- UI roundness -->
+    <ListPreference
+        android:key="rounded_ui"
+        android:title="@string/rounded_ui_title"
+        android:dialogTitle="@string/rounded_ui_dialog_title"
+        android:entries="@array/rounded_ui_titles"
+        android:entryValues="@array/rounded_ui_values" />
+
+    <!-- Media notification background -->
+    <org.lineageos.support.preferences.SystemSettingSwitchPreference
+        android:key="artwork_media_background"
+        android:title="@string/artwork_media_background_title"
+        android:summary="@string/artwork_media_background_summary"
+        android:defaultValue="true" />
+
+    <!-- Darken media artwork -->
+    <org.lineageos.support.preferences.CustomSeekBarPreference
+        android:key="darken_media_artwork"
+        android:title="@string/darken_media_artwork_title"
+        android:summary="@string/darken_media_artwork_summary"
+        android:max="90"
+        settings:min="0"
+        settings:units="%"
+        settings:interval="1"
+        android:defaultValue="35"
+        android:dependency="artwork_media_background" />
+
+    <!-- Custom lock screen clock accent -->
+    <org.lineageos.support.preferences.SystemSettingSwitchPreference
+        android:key="lock_screen_clock_use_custom_accent_color"
+        android:title="@string/lock_screen_clock_use_custom_accent_color_title"
+        android:summary="@string/lock_screen_clock_use_custom_accent_color_summary"
+        android:defaultValue="false" />
+
+    <!-- Lock screen clock accent -->
+    <org.lineageos.support.colorpicker.ColorPickerPreference
+        android:key="lock_screen_clock_custom_accent_color"
+        android:title="@string/lock_screen_clock_custom_accent_color_title"
+        android:defaultValue="0xffffffff"
+        android:dependency="lock_screen_clock_use_custom_accent_color" />
+
+</PreferenceScreen>

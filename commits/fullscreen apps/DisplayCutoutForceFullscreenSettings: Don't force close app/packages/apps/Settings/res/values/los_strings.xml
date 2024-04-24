@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
+
+    <!-- Per App Volume Control -->
+    <string name="show_app_volume_title">Per-app volume control</string>
+    <string name="show_app_volume_summary">Adjust the volume for individual apps</string>
+
+    <!-- Game spoof -->
+    <string name="game_spoof_title">Unlock higher FPS in games</string>
+    <string name="game_spoof_summary">Spoof device as a different model for specific games to unlock higher FPS</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+
+</resources>

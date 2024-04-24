@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="monet_default_background">#ff151618</color>
+    <color name="monet_qs_tile_active_icon">#ff000000</color>
+    <color name="monet_qs_tile_inactive_background">#ff000000</color>
+    <color name="monet_qs_tile_inactive_icon">#ff000000</color>
+</resources>

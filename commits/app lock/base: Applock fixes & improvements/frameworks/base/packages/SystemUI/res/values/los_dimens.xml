@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="volume_row_app_icon_padding">8dp</dimen>
+
+    <!-- The padding/margin of the phone/camera icon view on keyguard. -->
+    <dimen name="keyguard_affordance_padding">5dp</dimen>
+    <dimen name="keyguard_affordance_margin">5dp</dimen>
+
+    <!-- Quick Settings: Footer & Media player -->
+    <dimen name="op_qs_footer_action_layout_size">96dp</dimen>
+    <dimen name="quick_settings_top_margin_media">2dp</dimen>
+    <dimen name="quick_settings_top_margin_media_extra">6dp</dimen>
+    <dimen name="qs_media_action_button_margin_top">18dp</dimen>
+    <dimen name="qs_media_action_button_size">40dp</dimen>
+    <dimen name="brightness_slider_height">48dp</dimen>
+    <dimen name="op_qs_footer_action_button_size">48dp</dimen>
+    
+    <dimen name="screenrecord_dot_size">48dp</dimen>
+    
+    <!-- App Lock -->
+    <dimen name="applock_icon_dimension">54dp</dimen>
+    <dimen name="applock_icon_elevation">2dp</dimen>
+
+</resources>

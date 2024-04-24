@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="dark_theme_base">#151618</color>
+    <color name="dark_theme_divider">#333438</color>
+    <color name="dark_theme_toast_background">#212326</color>
+</resources>

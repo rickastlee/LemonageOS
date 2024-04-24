@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Customization category -->
+    <string name="customization_title">Customization</string>
+    <string name="customization_summary">Tweak LineageOS to your heart\'s content</string>
+
+    <string name="default_string">Default</string>
+    <string name="disabled_string">Disabled</string>
+
+    <!-- Status bar -->
+    <string name="customization_statusbar_title">Status bar</string>
+    <string name="customization_statusbar_summary">Clock, icons, gestures, and indicators</string>
+
+    <string name="status_bar_category_icons">Icons</string>
+    <string name="status_bar_category_battery">Battery indicator</string>
+    <string name="status_bar_category_clock">Clock</string>
+    <string name="status_bar_category_gestures">Gestures</string>
+
+    <!-- Visible icons -->
+    <string name="status_bar_icons_title">Icon manager</string>
+    <string name="status_bar_icons_summary">Control which status bar icons are shown</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
+    <!-- Show seconds -->
+    <string name="status_bar_clock_show_seconds_title">Show seconds</string>
+    <string name="status_bar_clock_show_seconds_summary">Show hours, minutes, and seconds</string>
+
+    <!-- Auto hide clock-->
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
+
+    <!-- Battery style -->
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+
+    <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
+    <!-- Quick pulldown-->
+    <string name="qs_quick_pulldown_title">Quick pulldown</string>
+    <string name="qs_quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="qs_quick_pulldown_off">Off</string>
+    <string name="qs_quick_pulldown_right">Right</string>
+    <string name="qs_quick_pulldown_left">Left</string>
+
+    <!-- Theming -->
+    <string name="customization_theming_title">Theming</string>
+    <string name="customization_theming_summary">Wallpaper, styles, dashboard icons, lockscreen clocks</string>
+
+    <string name="theming_category_settings_homepage">Settings homepage</string>
+    <string name="theming_category_connectivity_icons">Connectivity icons</string>
+    <string name="theming_category_media_player">QS media player</string>
+    <string name="theming_category_lock_screen_clocks">Lock screen clocks</string>
+    <string name="theming_category_miscellaneous">Miscellaneous</string>
+
+    <!-- Dashboard icons -->
+    <string name="settings_dashboard_title">Dashboard icons</string>
+    <string name="settings_dashboard_default">Default</string>
+    <string name="settings_dashboard_p404">Project 404</string>
+    <string name="settings_dashboard_twelve">Twelve</string>
+
+    <!-- User avatar style -->
+    <string name="user_avatar_style_title">User avatar style</string>
+    <string name="user_avatar_style_hidden">Hidden (default)</string>
+    <string name="user_avatar_style_custom">Custom image</string>
+
+    <string name="restart_settings_dialog_title">Restart Settings?</string>
+    <string name="restart_settings_dialog_message">You need to restart the settings app to apply the new user avatar style. Do you wish to proceed?</string>
+
+    <!-- Signal / WiFi styles -->
+    <string name="signal_style_title">Signal bar style</string>
+    <string name="signal_style_summary">Set custom signal icon style</string>
+    <string name="wifi_style_title">WiFi bar style</string>
+    <string name="wifi_style_summary">Set custom wifi icon style</string>
+
+    <!--UI roundness-->
+    <string name="rounded_ui_title">Rounded corners</string>
+    <string name="rounded_ui_dialog_title">Select rounded corner model</string>
+    <string name="rounded_style_rectangle">Rectangle</string>
+    <string name="rounded_style_small">Small (default)</string>
+    <string name="rounded_style_medium">Medium</string>
+    <string name="rounded_style_large">Large</string>
+
+    <!-- Notification media background -->
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the background of the Quick Settings media player</string>
+
+    <!-- Darken media artwork -->
+    <string name="darken_media_artwork_title">Amount to darken</string>
+    <string name="darken_media_artwork_summary">Darken media artwork by a specified amount so that the information displayed and media controls can be easily seen</string>
+
+    <!-- Lock screen clock accent color -->
+    <string name="lock_screen_clock_use_custom_accent_color_title">Custom accent color</string>
+    <string name="lock_screen_clock_use_custom_accent_color_summary">Use a custom accent color instead of the one automatically picked from the wallpaper</string>
+    <string name="lock_screen_clock_use_custom_accent_color_unavailable_summary">Use a custom accent color instead of the one automatically picked from the wallpaper\n\nUnavailable for the current clock - only Oxygen, Samsung and Twelve are supported. Please select one of those in Styles &amp; wallpapers first</string>
+    <string name="lock_screen_clock_custom_accent_color_title">Set custom color</string>
+
+    <!-- Miscellaneous -->
+    <string name="customization_miscellaneous_title">Miscellaneous</string>
+    <string name="customization_miscellaneous_summary">Spoofing, ignore flag secure</string>
+
+    <string name="miscellaneous_category_spoofing">Spoofing</string>
+
+    <!-- Spoof GMS -->
+    <string name="spoof_gms_title">Enable built-in Play Integrity fix</string>
+    <string name="spoof_gms_summary">Spoof device as a different model with certified props for GMS to pass Play Integrity with a MEETS_DEVICE_INTEGRITY verdict. You should NOT disable this option unless the props provided by the latest PIF apk no longer work as intended or you wish to override them using a module.</string>
+
+    <!-- Game spoof -->
+    <string name="game_spoof_title">Unlock higher FPS in games</string>
+    <string name="game_spoof_summary">Spoof device as a different model for specific games to unlock higher FPS</string>
+
+    <!-- Ignore secure window -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes screenshot and screenrecord limits for all applications but may lead to privacy leaks. After toggling, you may need to restart your apps.</string>
+
+    <!-- Network traffic monitor -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_location">Show net activity</string>
+    <string name="traffic_disabled">Disabled</string>
+    <string name="traffic_statusbar">Statusbar</string>
+    <string name="traffic_expanded_statusbar">Expanded header</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_arrow">Show arrows</string>
+    <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+
+</resources>

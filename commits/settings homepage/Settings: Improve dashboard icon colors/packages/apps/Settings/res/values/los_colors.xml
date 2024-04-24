@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Color of the divider in battery settings -->
+    <color name="tl_preference_divider_bg">#dcdcdc</color>    
+    
+    <!-- Background colors of the dashboard icons -->
+    <color name="los_privacy_background">@*android:color/monet_hue_218_primary_100</color>
+    <color name="los_network_background">@*android:color/monet_hue_207_primary_100</color>
+    <color name="los_devices_background">@*android:color/monet_hue_85_primary_100</color>
+    <color name="los_apps_background">@*android:color/monet_hue_28_primary_100</color>
+    <color name="los_system_background">@*android:color/monet_hue_359_primary_100</color>
+    <color name="los_location_background">@*android:color/monet_hue_187_primary_100</color>
+    <color name="los_battery_background">@*android:color/monet_hue_176_primary_100</color>
+    <color name="los_display_background">@*android:color/monet_hue_35_primary_100</color>
+    <color name="los_sound_background">@*android:color/monet_hue_179_primary_100</color>
+    <color name="los_storage_background">@*android:color/monet_hue_286_primary_100</color>
+    <color name="los_security_background">@*android:color/monet_hue_151_primary_100</color>
+    <color name="los_accounts_background">@*android:color/monet_hue_340_primary_100</color>
+    <color name="los_accessibility_background">@*android:color/monet_hue_261_primary_100</color>
+    <color name="los_about_background">@*android:color/monet_hue_225_primary_100</color>
+    <color name="los_google_background">@*android:color/monet_hue_213_primary_100</color>
+    <color name="los_customization_background">@*android:color/monet_hue_0_primary_100</color>
+
+    <color name="los_privacy_foreground">@*android:color/monet_hue_218_neutral_variant_700</color>
+    <color name="los_network_foreground">@*android:color/monet_hue_207_neutral_variant_700</color>
+    <color name="los_devices_foreground">@*android:color/monet_hue_85_neutral_variant_700</color>
+    <color name="los_apps_foreground">@*android:color/monet_hue_28_neutral_variant_700</color>
+    <color name="los_system_foreground">@*android:color/monet_hue_359_neutral_variant_700</color>
+    <color name="los_location_foreground">@*android:color/monet_hue_187_neutral_variant_700</color>
+    <color name="los_battery_foreground">@*android:color/monet_hue_176_neutral_variant_700</color>
+    <color name="los_display_foreground">@*android:color/monet_hue_35_neutral_variant_700</color>
+    <color name="los_sound_foreground">@*android:color/monet_hue_179_neutral_variant_700</color>
+    <color name="los_storage_foreground">@*android:color/monet_hue_286_neutral_variant_700</color>
+    <color name="los_security_foreground">@*android:color/monet_hue_151_neutral_variant_700</color>
+    <color name="los_accounts_foreground">@*android:color/monet_hue_340_neutral_variant_700</color>
+    <color name="los_accessibility_foreground">@*android:color/monet_hue_261_neutral_variant_700</color>
+    <color name="los_about_foreground">@*android:color/monet_hue_225_neutral_variant_700</color>
+    <color name="los_google_foreground">@*android:color/monet_hue_213_neutral_variant_700</color>
+    <color name="los_customization_foreground">@*android:color/monet_hue_0_neutral_variant_700</color>
+
+</resources> 

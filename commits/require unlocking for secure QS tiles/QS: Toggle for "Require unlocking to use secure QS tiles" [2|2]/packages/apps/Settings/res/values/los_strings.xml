@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
+
+    <!-- Per App Volume Control -->
+    <string name="show_app_volume_title">Per-app volume control</string>
+    <string name="show_app_volume_summary">Adjust the volume for individual apps</string>
+
+    <!-- Game spoof -->
+    <string name="game_spoof_title">Unlock higher FPS in games</string>
+    <string name="game_spoof_summary">Spoof device as a different model for specific games to unlock higher FPS</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Ignore notch space for selected applications</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+
+    <!-- Display Settings categories -->
+    <string name="display_screen_label">Screen</string>
+    <string name="display_custom_label">Customization</string>
+
+    <!-- Battery Stats Menu -->
+    <string name="battery_menu_stats_total">View detailed usage</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be reset</string>
+
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Battery temperature</string>
+
+    <!-- Ignore secure window -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes screenshot and screenrecord limits for all applications but may lead to privacy leaks. After toggling, you may need to restart your apps.</string>
+    
+    <string name="battery_charge_cycles">Charge cycles completed</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    
+    <string name="theme_customization_systemui_title">Dark theme style</string>
+
+    <!-- Advanced reboot -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for System UI, recovery and bootloader</string>
+
+    <!-- Custom brightness curve impl -->
+    <string name="custom_brightness_curve_impl_title">Use custom brightness curve impl</string>
+    <string name="custom_brightness_curve_impl_summary">Increases maximum brightness. Ideal for outdoor usage but reduces brightness slider accuracy and may result in increased power consumption</string>
+
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_toast">This feature requires a SystemUI restart to work properly. We\'ll restart the SystemUI right now.</string>
+
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Make secure tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">Some system tiles will require unlocking before you can acccess them from lock screen.</string>
+
+</resources>

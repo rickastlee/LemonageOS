@@ -1,0 +1,70 @@
+//
+// Prebuilt apps for Lineage OS 18.1
+//
+
+// Fossify Gallery
+android_app_import {
+    name: "FossifyGallery",
+    apk: "FossifyGallery.apk",
+    presigned: true,
+    overrides: ["Gallery2"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+// Markup
+android_app_import {
+    name: "Markup",
+    apk: "Markup.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+// Moto Dialer
+android_app_import {
+    name: "MotoDialer",
+    apk: "MotoDialer.apk",
+    overrides: ["Dialer"],
+    presigned: true,
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    required: ["privapp-permissions-com.android.dialer"],
+}
+
+// QKSMS
+android_app_import {
+    name: "QKSMS",
+    apk: "QKSMS.apk",
+    presigned: true,
+    overrides: ["messaging"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+// Unitto
+android_app_import {
+    name: "Unitto",
+    apk: "Unitto.apk",
+    presigned: true,
+    overrides: ["ExactCalculator"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+// Via
+android_app_import {
+    name: "ViaBrowser",
+    apk: "ViaBrowser.apk",
+    presigned: true,
+    overrides: ["Browser2 Jelly"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
